@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.madapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddCustomer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Customization"></activity>
+        <activity android:name=".RemoveUsers"></activity>
+        <activity android:name=".UserProfile" />
+        <activity android:name=".FeedBack" />
+        <activity android:name=".EditShoeD" />
+        <activity android:name=".Cart" />
+        <activity android:name=".EditDetailsFormal" />
+        <activity android:name=".EditDeatailsCashual" />
+        <activity android:name=".AlterShoe" />
+        <activity android:name=".Admin">
+
+        </activity>
+        <activity android:name=".formalList" />
+        <activity android:name=".cashualList" />
+        <activity android:name=".SelectST" />
+        <activity android:name=".home" />
+        <activity android:name=".RegistrationP" />
+        <activity android:name=".frontPage" />
+        <activity android:name=".login" />
+    </application>
+
+</manifest>
